@@ -43,9 +43,9 @@ export default function YashelTrackerLanding() {
   ];
 
   const stats = [
-    { number: '5000+', label: 'Активных пользователей' },
-    { number: '50000+', label: 'Восполненных намазов' },
-    { number: '4.9', label: 'Средняя оценка' }
+    { number: '1000+', label: 'Пользователей' },
+    { number: '300+', label: 'Подписчиков телеграмм канала' },
+    { number: '4.9', label: 'Ещё какие-то цифры' }
   ];
 
   return (
@@ -85,7 +85,7 @@ export default function YashelTrackerLanding() {
             </button>
 
             <a 
-              href="https://t.me/your_bot_name" 
+              href="https://t.me/yashel_tracker_bot" 
               className="hidden md:block bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-3 rounded-full hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
               Начать использовать
@@ -100,7 +100,7 @@ export default function YashelTrackerLanding() {
               <a href="#features" className="text-gray-700 hover:text-emerald-600 transition py-2">Возможности</a>
               <a href="#how-it-works" className="text-gray-700 hover:text-emerald-600 transition py-2">Как работает</a>
               <a href="#testimonials" className="text-gray-700 hover:text-emerald-600 transition py-2">Отзывы</a>
-              <a href="https://t.me/your_bot_name" className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-3 rounded-full text-center">
+              <a href="https://t.me/yashel_tracker_bot" className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-3 rounded-full text-center">
                 Начать использовать
               </a>
             </nav>
@@ -128,7 +128,7 @@ export default function YashelTrackerLanding() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://t.me/your_bot_name" 
+                href="https://t.me/yashel_tracker_bot" 
                 className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center"
               >
                 <Moon className="w-5 h-5 mr-2" />
@@ -262,9 +262,9 @@ export default function YashelTrackerLanding() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: 'Айша', text: 'Наконец-то я могу систематически восполнять пропущенные намазы. Бот очень удобный!' },
-              { name: 'Муслим', text: 'Отличная статистика и напоминания. Это именно то, что я искал!' },
-              { name: 'Фатима', text: 'Простой интерфейс и все необходимые функции. Рекомендую всем!' }
+              { name: 'Елена', text: 'Я невероятно благодарна Всевышнему , что посредством Вашего канала Он открыл тему намаза для меня и многих других с другой стороны, глубже и более осознанно. Пусть Аллах запишет за Вами все благодеяния, которые будут совершены по причине этого. Аминь.' },
+              { name: 'Исмагиль', text: 'Такие емкие и ценные слова от хазрата🔥\nСпасибо за ваш труд!' },
+              { name: 'Семья', text: 'Спасибо! Мы пропущенные намазы восполняли в Мекке и Медине. С тех пор не пропускаем.' }
             ].map((testimonial, idx) => (
               <div key={idx} className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                 <div className="flex items-center mb-4">
@@ -296,7 +296,7 @@ export default function YashelTrackerLanding() {
               Присоединяйтесь к тысячам мусульман, которые используют Яшел Трекер
             </p>
             <a 
-              href="https://t.me/your_bot_name" 
+              href="https://t.me/yashel_tracker_bot" 
               className="inline-block bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-12 py-4 rounded-full text-lg font-semibold hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
             >
               Открыть бота в Telegram →
