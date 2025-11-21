@@ -28,7 +28,7 @@ export default function YashelTrackerLanding() {
     {
       icon: Moon,
       title: 'Трекинг постов',
-      description: 'Ведите учёт пропущенных дней поста и планируйте их восполнение'
+      description: 'Планируйте и отмечайте восполненные дни поста в простом интерфейсе'
     },
     {
       icon: Bell,
@@ -38,7 +38,7 @@ export default function YashelTrackerLanding() {
     {
       icon: TrendingUp,
       title: 'Статистика прогресса',
-      description: 'Визуализация вашего пути к восполнению пропущенных ибадатов'
+      description: 'Наблюдайте за тем, как ваше усердие приводит к очищению сердца и выполнению долга перед Всевышним'
     }
   ];
 
@@ -172,7 +172,7 @@ export default function YashelTrackerLanding() {
               Возможности бота
             </h2>
             <p className="text-xl text-gray-600">
-              Всё необходимое для учёта и восполнения ибадатов
+              Система для контроля вашего поклонения
             </p>
           </div>
 
@@ -222,8 +222,8 @@ export default function YashelTrackerLanding() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               { step: '01', title: 'Запустите бота', desc: 'Откройте бота в Telegram и начните использовать' },
-              { step: '02', title: 'Добавьте данные', desc: 'Укажите количество пропущенных намазов и постов' },
-              { step: '03', title: 'Отслеживайте прогресс', desc: 'Восполняйте и отмечайте выполненные ибадаты' }
+              { step: '02', title: 'Добавьте данные', desc: 'Укажите количество пропущенных намазов и постов или рассчитайте их с помощью бота' },
+              { step: '03', title: 'Отслеживайте прогресс', desc: 'Отмечайте каждый выполненный намаз и пост, чтобы видеть, как вы приближаетесь к своей цели' }
             ].map((item, idx) => (
               <div key={idx} className="relative">
                 <div className="bg-gradient-to-br from-white to-emerald-50 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
@@ -274,7 +274,7 @@ export default function YashelTrackerLanding() {
                 </div>
                 <p className="text-white mb-4 italic">
                   "{testimonial.text}"
-                </p>
+                </p> 
                 <p className="text-emerald-200 font-semibold">
                   — {testimonial.name}
                 </p>
